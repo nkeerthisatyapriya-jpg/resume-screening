@@ -1,5 +1,8 @@
+
+# Note
+This is a prototype project built for learning and academic purposes.
+
 # Resume Screening using TensorFlow
-# Beginner-friendly ML project
 
 import pandas as pd
 import tensorflow as tf
@@ -48,4 +51,5 @@ model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test))
 
 # 7. Evaluate
 loss, accuracy = model.evaluate(X_test, y_test)
+
 print("Model Accuracy:", accuracy)
